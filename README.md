@@ -9,12 +9,21 @@ Avant de commencer. Consulter les instructions à suivre dans [instructions.md](
 ## 1. Nombre de lettres d'un mot
 ### `get_num_letters`
 
-Compter le nombre de caractères alphanumériques d'une string. Vous ne devez pas compter la ponctuation comme étant une lettre du mot. Donc si un mot contient des caractères de ponctuation (trait d’union, apostrophe, point, virgule, etc.), vous devez y soustraire ceux-ci dans le nombre de lettres du mot. Par exemple, le mot «est?» contient trois lettres et le mot «[reus]» en contient quatre. Utilisez `isalnum` pour déterminer si un caractère est alphanumérique ou non.
+Compter le nombre de caractères alphanumériques d'une string. Vous ne devez pas compter 
+la ponctuation comme étant une lettre du mot. Donc si un mot contient des caractères de 
+ponctuation (trait d’union, apostrophe, point, virgule, etc.), vous devez y soustraire 
+ceux-ci dans le nombre de lettres du mot. Par exemple, le mot «est?» contient trois lettres 
+et le mot «[reus]» en contient quatre. Utilisez `isalnum` pour déterminer si un caractère est 
+alphanumérique ou non.
 
 ## 2. Histogramme de longueurs de mots
 ### `get_word_length_histogram`
 
-Construire un histogramme du nombre de lettres des mots d'un texte. Vous devez retourner une liste où l'élément à un index donné est le nombre de mots ayant un nombre de lettres égal à cet index. Par exemple, l'histogramme `[0, 3, 0, 2]` représente un texte qui a trois mots d'une lettre, aucun mots de deux lettres et deux mots de trois lettres. Le premier élément de la liste (le compte de mots à zéro lettre) devrait toujours être égal à 0.
+Construire un histogramme du nombre de lettres des mots d'un texte. Vous devez retourner une 
+liste où l'élément à un index donné est le nombre de mots ayant un nombre de lettres égal à cet 
+index. Par exemple, l'histogramme `[0, 3, 0, 2]` représente un texte qui a trois mots d'une
+lettre, aucun mots de deux lettres et deux mots de trois lettres. Le premier élément de la 
+liste (le compte de mots à zéro lettre) devrait toujours être égal à 0.
 
 Par exemple :
 ```python
